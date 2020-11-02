@@ -11,7 +11,7 @@ function submit(e) {
   e.preventDefault();
 
   var xhr = new XMLHttpRequest();
-  xhr.open("POST", "https://md7p0rpb42.execute-api.eu-central-1.amazonaws.com/dev", true);
+  xhr.open("POST", "https://jh2svojhn5.execute-api.eu-central-1.amazonaws.com/dev", true);
 
   xhr.setRequestHeader("Content-type", "application/json");
   xhr.onreadystatechange = function() {
